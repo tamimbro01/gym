@@ -2,6 +2,7 @@ export const navLinks = [
   { name: 'Home', href: '#home' },
   { name: 'About Us', href: '#aboutus' },
   { name: 'Courses', href: '#all_courses' },
+  { name: 'Online Training', href: '#online-training' },
   { name: 'Our Services', href: '#our_services' },
   { name: 'Portfolio', href: '#portfolio' },
   { name: 'Contact Us', href: '#contact-us' },

@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import OurApproach from './components/OurApproach';
 import Courses from './components/Courses';
 import AboutUs from './components/AboutUs';
+import OnlineGroupTraining from './components/OnlineGroupTraining';
 import OurServices from './components/OurServices';
 import Portfolio from './components/Portfolio';
 import TransformationBanner from './components/TransformationBanner';
@@ -68,6 +69,9 @@ function App() {
 
         {/* About Us & Interactive BMI Calculator (#aboutus) */}
         <AboutUs onOpenModal={handleOpenModal} />
+
+        {/* Online Group Training Section (#online-training) */}
+        <OnlineGroupTraining />
 
         {/* Our Services (#our_services) */}
         <OurServices onOpenModal={handleOpenModal} />

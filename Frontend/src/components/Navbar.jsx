@@ -16,7 +16,7 @@ const Navbar = ({ onOpenModal }) => {
       }
 
       // Determine active section for nav highlight
-      const sections = ['home', 'aboutus', 'all_courses', 'our_services', 'portfolio', 'contact-us'];
+      const sections = ['home', 'aboutus', 'all_courses', 'online-training', 'our_services', 'portfolio', 'contact-us'];
       const scrollPosition = window.scrollY + 120;
 
       for (const sectionId of sections) {
